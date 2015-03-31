@@ -115,6 +115,11 @@ These snippets can now be installed via [Sublime Package Control](http://wbond.n
     <td>__t__</td>
     <td>`<%= t('@') %>`</td>
   </tr>
+  <tr>
+    <td>table list helper</td>
+    <td>__tbl__</td>
+    <td>Table List</td>
+  </tr>
 <table>
 
 ##Resolve conflicting tab trigger

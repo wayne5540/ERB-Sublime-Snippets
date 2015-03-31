@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+<table class="table">
+  <thead>
+    <tr>
+      <th>#</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% ${1:@things}.each do |${2:thing}| %>
+    <tr>
+      <td><%= thing.id %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
+]]></content>
+  <tabTrigger>tbl</tabTrigger>
+  <scope>text.html.ruby</scope>
+  <description>ERB table list block</description>
+</snippet>
