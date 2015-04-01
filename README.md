@@ -7,20 +7,34 @@ A collection of [Sublime Text](http://www.sublimetext.com/) snippets useful for 
 
 These snippets can now be installed via [Sublime Package Control](http://wbond.net/sublime_packages/package_control). If you do not use package control, simply checkout the source code into Sublime Text's packages directory. The location is system specific:
 
+### For whom is already install [matthewrobertson](https://github.com/matthewrobertson/ERB-Sublime-Snippets) Snnipets
+
+    Open Sublime and type `CMD + SHIFT + P`
+    Select `Package Control: Remove Package`
+    type `CMD + SHIFT + P` again
+    Select `Package Control: Add Repository`
+    type `https://github.com/wayne5540/ERB-Sublime-Snippets`
+    quit sublime
+    open sublime again
+    type `CMD + SHIFT + P` again
+    Select `Package Control: Install Package`
+    Choose `ERB-Sublime-Snippets`
+
+
 ### For OSX
 
     $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
-    $ git clone git://github.com/matthewrobertson/ERB-Sublime-Snippets.git ERB_Snippets
+    $ git clone git://github.com/wayne5540/ERB-Sublime-Snippets.git ERB_Snippets
 
 ### For Windows
 
     $ cd %APPDATA%/Sublime Text 2/Packages/
-    $ git clone git://github.com/matthewrobertson/ERB-Sublime-Snippets.git ERB_Snippets
+    $ git clone git://github.com/wayne5540/ERB-Sublime-Snippets.git ERB_Snippets
 
 ### For Linux
 
     $ cd ~/.Sublime Text 2/Packages/
-    $ git clone git://github.com/matthewrobertson/ERB-Sublime-Snippets.git ERB_Snippets
+    $ git clone git://github.com/wayne5540/ERB-Sublime-Snippets.git ERB_Snippets
 
 ##Snippets and Bindings
 
